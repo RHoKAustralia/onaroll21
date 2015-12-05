@@ -1,5 +1,10 @@
 {
   "name": "onaroll21",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RHoKAustralia/onaroll21"
+  },
+  "license": "MIT",
   "version": "0.0.0",
   "dependencies": {},
   "scripts": {
