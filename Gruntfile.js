@@ -6,6 +6,8 @@ module.exports = function(grunt) {
     'concat:vendor',
     'copy:templates', 
     'copy:index',
+    'copy:images',
+    'copy:fonts',
     'uglify',
     'less'
   ]);
@@ -14,6 +16,8 @@ module.exports = function(grunt) {
     'concat:vendor',
     'copy:templates', 
     'copy:index',
+    'copy:images',
+    'copy:fonts',
     'uglify',
     'less',
     'connect:server', 
@@ -86,6 +90,16 @@ module.exports = function(grunt) {
         expand: false,
         src: 'index.html',
         dest: 'build/index.html'
+      },
+      images: {
+        expand: true, 
+        src: 'images/**', 
+        dest: 'build/'
+      },
+      fonts: {
+        expand: true,
+        src: 'fonts/**',
+        dest: 'build/'
       }
     },
     less: {
