@@ -28,3 +28,4 @@ grunt
 grunt serve
 ```
 
+Then you should be able to the app running @ http://localhost:9001/
