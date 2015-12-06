@@ -9,7 +9,16 @@ module.exports = function(grunt) {
     'uglify',
     'less'
   ]);
-  grunt.registerTask('serve', ['connect:server', 'watch']);
+  grunt.registerTask('serve', [
+    'concat:app', 
+    'concat:vendor',
+    'copy:templates', 
+    'copy:index',
+    'uglify',
+    'less',
+    'connect:server', 
+    'watch'
+  ]);
  
   grunt.initConfig({
     concat: {
