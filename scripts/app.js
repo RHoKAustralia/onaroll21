@@ -58,7 +58,8 @@ var app = angular.module('oar21', [
     'shoppinpal.mobile-menu',
     'ngDialog',
     'ngFileUpload',
-    'angular-svg-round-progress'
+    'angular-svg-round-progress',
+    'angular-google-analytics'
 ]).config(function ($routeProvider, $compileProvider) {
 	
     $routeProvider
@@ -938,6 +939,11 @@ app.run(function ($rootScope, $location, AuthenticationService, FlashService, Se
         //
         //}
     });
+});
+
+//Google analytics integration
+app.config(function (AnalyticsProvider) {
+  AnalyticsProvider.setAccount('UA-71079811-1');
 });
 
 app.factory('formDataObject', function () {

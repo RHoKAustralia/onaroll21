@@ -65,6 +65,7 @@ module.exports = function(grunt) {
             'bower_components/processing/processing.min.js',
             'bower_components/angular-svg-round-progressbar/build/roundProgress.min.js',
             'bower_components/materialize/dist/js/materialize.js',
+            'bower_components/angular-google-analytics/dist/angular-google-analytics.js',
             'js/non_bower_components/**.js',
         ],
         dest: 'build/js/libraries-min.js'
