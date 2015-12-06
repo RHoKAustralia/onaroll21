@@ -14,4 +14,17 @@ Node >= 0.10.0
 Steps 
  - tested with 0.12.2 - Windows
 
-1. npm install
+# Getting Started #
+
+```
+npm install
+```
+
+```
+grunt
+```
+
+```
+grunt serve
+```
+
