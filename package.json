@@ -1,6 +1,11 @@
 {
   "name": "oar12",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RHoKAustralia/onaroll21"
+  },
+  "license": "MIT",
   "dependencies": {
     "grunt-cli": "latest",
     "grunt-contrib-concat": "latest",
